@@ -8,4 +8,10 @@ class zsh::install {
     ensure => present,
   }
 
+  if $::osfamily == "RedHat"
+    package { $::zsh::package_dependences:
+      ensure => before,
+    }
+  end
+
 }

@@ -9,7 +9,8 @@
 #
 class zsh (
   $package_name = $::zsh::params::package_name
-) inherits ::zsh::params {
+  $package_dependences = $::zsh::params::package_dependences
+) inherits ::zsh::params
 
   # validate parameters here
 
