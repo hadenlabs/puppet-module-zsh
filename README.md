@@ -1,3 +1,8 @@
+<span class="badges">
+[![Stories in Ready](https://badge.waffle.io/hadenlabs/puppet-module-zsh.svg?label=ready&title=Ready)](http://waffle.io/hadenlabs/puppet-module-zsh)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
+</span>
+
 #### Table of Contents
 
 1. [Overview](#overview)
